@@ -1,6 +1,6 @@
 FROM python:3.10.0-alpine3.15
 WORKDIR /demo1
-COPY C:/Users/Sukhjinder Singh/Desktop/restapi/backend/required.txt required.txt
+COPY required.txt required.txt
 RUN pip install -r required.txt
 COPY . /demo1
 EXPOSE 8000
